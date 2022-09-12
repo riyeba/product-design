@@ -1,0 +1,83 @@
+body{ 
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color:hsl(30, 38%, 92%) ;
+}
+
+main{
+  max-width: 1440px;
+  
+}
+
+.container img{
+  height: 510px;
+  border-radius: 10px 0 0 10px;
+  width:370px;
+}
+
+.whole{
+  float: right;
+  background-color: hsl(0, 0%, 100%);
+  width: 370px;
+  height: 492px;
+  border-radius: 0 10px 10px 0;
+  padding-top: 17px;
+  
+  
+}
+
+.whole h1{
+  margin-left: 40px;
+  font-size: 40px;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+
+  
+  
+ }
+
+.whole p{
+ margin-left: 40px;
+ font-size: 17px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500;
+ 
+
+}
+
+.whole button{
+  margin-left: 40px;
+  width: 270px;
+  height:55px;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(158, 36%, 37%);
+  font-size: 15px;
+  padding:12px; 
+  font-weight: 500; 
+  
+}
+
+.whole .fa{
+  width: 50px;
+  height: 100px;
+}
+
+.price2{
+ margin-left:25px;
+ margin-top:9px ;
+ position: absolute;
+ 
+ text-decoration: line-through;
+ 
+}
+
+.price1{
+  font-size:40px;
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+ }
